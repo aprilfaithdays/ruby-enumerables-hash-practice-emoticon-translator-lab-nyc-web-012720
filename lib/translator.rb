@@ -2,8 +2,8 @@ require 'yaml'
 require 'pry'
 
 def load_library(file_path)
-  library = File.read(file_path)
-  emoticons = YAML.loadfile(library)
+  library = YAML.loadfile(file_path)
+  
 end
 
 def get_japanese_emoticon
